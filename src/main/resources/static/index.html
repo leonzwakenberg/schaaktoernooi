@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Schaaktoernooi</title>
-    <style>
-  table, th, td {
-  border: 1px solid blue;
-    </style>
-
-
 
 </head>
 <body>
 <button id="schakeroverzichtbutton" > Klik hier voor alle deelnemende schakers</button></br>
+
+<div id="felixx">a</div>
+
 <table>
         <tr>
             <th>Voornaam</th>
             <th>Tussenvoegsel</th>
             <th>Achternaam</th>
             <th>Geboortedatum</th>
-            <th>Gewonnen</th>
-            <th>Remises</th>
-            <th>Verloren</th>
+    <th>Gewonnen</th>
+    <th>Remises</th>
+    <th>Verloren</th>
 
         </tr>
         <tr>
-            <td id="schakeroverzicht"></td>
+    <td id="voornaamschaker"></td>
+    <td id="tussenvoegselschaker"></td>
+    <td id="achternaamschaker"></td>
+    <td id="geboortedatumschaker"></td>
+    <td id="gewonnenpartijenschaker"></td>
+    <td id="remisesschaker"></td>
+    <td id="verlorenpartijenschaker"></td>
 
         </tr>
 </table>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="script.js"></script>
+
+
 </body>
 </html>

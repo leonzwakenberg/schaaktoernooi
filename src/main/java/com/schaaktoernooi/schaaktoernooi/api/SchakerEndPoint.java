@@ -13,6 +13,9 @@ public class SchakerEndPoint {
     @Autowired
     private SchakerRepository schakersRepository;
 
+    //@GetMapping
+
+
 
     @GetMapping("/schaker")
     public Iterable<Schaker> geefAlleSchakers(){
@@ -21,6 +24,7 @@ public class SchakerEndPoint {
     }
 }
 
+/**
     public Iterable<Room> getAllRooms() {
         Iterable<Room> rooms = roomService.showAllRooms();
         return rooms;
@@ -28,3 +32,4 @@ public class SchakerEndPoint {
     public Iterable<Room> showAllRooms() {
         return roomRepository.findAll();
     }
+ */

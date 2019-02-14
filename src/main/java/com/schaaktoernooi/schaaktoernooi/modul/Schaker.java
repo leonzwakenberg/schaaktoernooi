@@ -11,12 +11,12 @@ public class Schaker {
     @Id
     long id;
 
-    String voornaam;
-    String tussenvoegsel;
-    String achternaam;
-    String geboortedatum;
-    int gewonnenPartijen;
-    int remises;
-    int verlorenPartijen;
+    public String voornaam;
+    public String tussenvoegsel;
+    public String achternaam;
+    public String geboortedatum;
+    public int gewonnenPartijen;
+    public int remises;
+    public int verlorenPartijen;
 
 }
